@@ -1,16 +1,16 @@
 import React from 'react';
 import   {Carousel,Row,Col,Image} from 'react-bootstrap';
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Carousel.css';
+import { Container } from 'react-bootstrap/lib/Tab';
 
-import FontAwesome from 'react-fontawesome'
+
 
 export default function Homepage() {
   return (
-<Row >
-    <Col>
+<Container>
+  <Row >
+    <Col xs={6} md={4}>
       <Carousel>
         <Carousel.Item>
     
@@ -20,11 +20,7 @@ export default function Homepage() {
               className="Imageedit"
              />
       
-            <div className = 'carousel_text'>
-            <h2> JOIN US ON FACEBOOK</h2>
-            <FontAwesome/>
-
-            </div>
+            
   
       </Carousel.Item>
       <Carousel.Item>
@@ -51,23 +47,7 @@ export default function Homepage() {
 </Col>
 
     </Row>         
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
+    </Container>
   )
 }
 
