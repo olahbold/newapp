@@ -2,15 +2,15 @@ import React from 'react';
 import   {Carousel,Row,Col,Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Carousel.css';
-import { Container } from 'react-bootstrap/lib/Tab';
+import { Container } from 'react-bootstrap';
 
 
 
 export default function Homepage() {
   return (
-<Container>
+<Container fluid>
   <Row >
-    <Col xs={6} md={4}>
+    <Col>
       <Carousel>
         <Carousel.Item>
     
@@ -36,7 +36,7 @@ export default function Homepage() {
   </Carousel.Item>
   <Carousel.Item>
     <Image
-      src= "/Pictures/backgroundimages3.jpeg" 
+      src= "/Pictures/program.jpg" 
       alt="Third slide"
       className="Imageedit"
     />
