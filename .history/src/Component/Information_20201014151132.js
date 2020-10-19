@@ -1,0 +1,6 @@
+  const Church = {
+ id : "1",
+ Name : "Flem Ministries",
+ Address : "58 S Girls School Road Indianapolis IN 46231 USA"
+
+}

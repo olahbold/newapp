@@ -2,7 +2,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar,Nav,NavLink} from 'react-bootstrap';
-//import {link} from 'react-router-dom'
+
 
 import './Nav.css'
 import { Link} from 'react-router-dom'
@@ -12,7 +12,7 @@ import { Link} from 'react-router-dom'
     return (
 
 <>
-  <Navbar bg="light" expand ="lg" variant="danger" className = 'fixed-top' >
+  <Navbar bg="light" expand ="lg" variant="danger" className = 'fixed-top'  >
     <Navbar.Brand >
     <Link to="/">
     <img
@@ -24,7 +24,7 @@ import { Link} from 'react-router-dom'
     </Navbar.Brand>
      
 
-    <Nav className="ml-auto ">
+    <Nav className=" justify-content-center">
       <NavLink  componentClass = {Link}  href ="/"to = "/">Home</NavLink>
       <NavLink  componentClass = {Link} href ="/about" to = "/about">About</NavLink>
       <NavLink  componentClass = {Link} href ="/give" to = "/give">Give</NavLink>
