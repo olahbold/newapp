@@ -1,13 +1,25 @@
-import React  from 'react'
-import { GoogleMap, withGoogleMap, withScriptjs,Marker  } from "react-google-maps"
+import React,{useState}  from 'react'
+import { GoogleMap, withGoogleMap, withScriptjs,Marker,InfoWindow } from "react-google-maps"
+  
 
+const [newstate, setstate] = useState(null)
 
  function Map() {
   return (
     <GoogleMap   defaultZoom={15} 
                 defaultCenter ={{ lat:39.764060, lng:-86.289130}} >
   
-    {(<Marker position ={{lat:39.764060, lng:-86.289130}}/> )}
+    {(<Marker position ={{lat:39.764060, lng:-86.289130}}
+    
+    onLoad\\={() => {
+      setstate(<div> I am around</div>)
+    }
+    }
+    
+    /> 
+
+    )}
+    {<InfoWindow><div>{newstate}</div></InfoWindow>}
 
 </GoogleMap>  
   );
