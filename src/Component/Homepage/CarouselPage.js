@@ -19,7 +19,7 @@ export default function Homepage() {
         <Carousel.Item>
     <a href  ='https://youtube.com/channel/UCWw5N_GxgeF7IfNWqmJ4tKQ'>
         <Image
-              src= "/Pictures/program.jpg"
+              src= "public/Pictures/program.jpg"
               alt="First slide"
               className="Imageedit"
               />
@@ -31,7 +31,7 @@ export default function Homepage() {
       <Carousel.Item>
     <a href  ='https://youtube.com/channel/UCWw5N_GxgeF7IfNWqmJ4tKQ'>
             <Image
-            src="/Pictures/youtubr.jpeg"
+            src="public/Pictures/about us 2.jpeg"
             alt="Third slide"
             className="Imageedit"
             />  
@@ -42,7 +42,7 @@ export default function Homepage() {
   <Carousel.Item>
   <a href  ='https://facebook.com/gabriel.adeyeye.984'>
     <Image
-      src= "/Pictures/facebook.jpeg" 
+      src= "public/Pictures/facebook.jpeg" 
       alt="Third slide"
       className="Imageedit"
     />

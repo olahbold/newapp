@@ -17,7 +17,7 @@ import { Link} from 'react-router-dom'
     <Link to="/">
     <img
       src="/Pictures/navbar2.jpg"
-      alt="Third slide"
+      alt="Nav Brand"
       className="Navbarimage"/>
       </Link>
      <p className = 'firetext'>Fire Prayer house</p>  
