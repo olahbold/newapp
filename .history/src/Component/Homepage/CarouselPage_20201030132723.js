@@ -31,8 +31,8 @@ export default function Homepage() {
       <Carousel.Item>
     <a href  ='https://youtube.com/channel/UCWw5N_GxgeF7IfNWqmJ4tKQ'>
             <Image
-            src="public/Images/about us 2.jpeg"
-            alt=" Second slide"
+            src="public//about us 2.jpeg"
+            alt=" Secondslide"
             className="Imageedit"
             />  
     </a>

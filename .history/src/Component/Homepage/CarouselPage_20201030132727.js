@@ -32,7 +32,7 @@ export default function Homepage() {
     <a href  ='https://youtube.com/channel/UCWw5N_GxgeF7IfNWqmJ4tKQ'>
             <Image
             src="public/Images/about us 2.jpeg"
-            alt=" Second slide"
+            alt=" Secondslide"
             className="Imageedit"
             />  
     </a>

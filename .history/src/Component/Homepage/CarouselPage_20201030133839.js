@@ -19,7 +19,7 @@ export default function Homepage() {
         <Carousel.Item>
     <a href  ='https://youtube.com/channel/UCWw5N_GxgeF7IfNWqmJ4tKQ'>
         <Image
-              src= "public/Images/backgroundsPic.jpg"
+              src= "newapp/public/Images/backgroundsPic.jpg"
               alt="First slide"
               className="Imageedit"
               />
